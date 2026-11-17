@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.2"
+    xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="nl" datatype="plaintext" original="EXT:pn_export_redirects/Resources/Private/Language/locallang.xlf" product-name="pn_export_redirects">
+        <header/>
+        <body>
+            <trans-unit id="button">
+                <target>Exporteren (CSV)</target>
+            </trans-unit>
+            <trans-unit id="yes">
+                <target>Ja</target>
+            </trans-unit>
+            <trans-unit id="no">
+                <target>Nee</target>
+            </trans-unit>
+            <trans-unit id="creation_type.automatic">
+                <target>Automatisch</target>
+            </trans-unit>
+            <trans-unit id="creation_type.manual">
+                <target>Handmatig</target>
+            </trans-unit>
+            <trans-unit id="column.uid">
+                <target>ID</target>
+            </trans-unit>
+            <trans-unit id="column.source_host">
+                <target>Brondomein</target>
+            </trans-unit>
+            <trans-unit id="column.source_path">
+                <target>Bronpad</target>
+            </trans-unit>
+            <trans-unit id="column.is_regexp">
+                <target>Reguliere expressie</target>
+            </trans-unit>
+            <trans-unit id="column.target">
+                <target>Doel</target>
+            </trans-unit>
+            <trans-unit id="column.target_url">
+                <target>Doel-URL</target>
+            </trans-unit>
+            <trans-unit id="column.target_statuscode">
+                <target>Statuscode</target>
+            </trans-unit>
+            <trans-unit id="column.active">
+                <target>Actief</target>
+            </trans-unit>
+            <trans-unit id="column.protected">
+                <target>Beschermd</target>
+            </trans-unit>
+            <trans-unit id="column.starttime">
+                <target>Start</target>
+            </trans-unit>
+            <trans-unit id="column.endtime">
+                <target>Stop</target>
+            </trans-unit>
+            <trans-unit id="column.hitcount">
+                <target>Hits</target>
+            </trans-unit>
+            <trans-unit id="column.lasthiton">
+                <target>Laatste hit</target>
+            </trans-unit>
+            <trans-unit id="column.creation_type">
+                <target>Aanmaakwijze</target>
+            </trans-unit>
+            <trans-unit id="column.createdon">
+                <target>Aangemaakt op</target>
+            </trans-unit>
+            <trans-unit id="column.updatedon">
+                <target>Laatst gewijzigd</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

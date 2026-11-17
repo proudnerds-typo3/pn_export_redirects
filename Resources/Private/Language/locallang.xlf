@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.2"
+    xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:pn_export_redirects/Resources/Private/Language/locallang.xlf" product-name="pn_export_redirects">
+        <header/>
+        <body>
+            <trans-unit id="button">
+                <source>Export (CSV)</source>
+            </trans-unit>
+            <trans-unit id="yes">
+                <source>Yes</source>
+            </trans-unit>
+            <trans-unit id="no">
+                <source>No</source>
+            </trans-unit>
+            <trans-unit id="creation_type.automatic">
+                <source>Automatic</source>
+            </trans-unit>
+            <trans-unit id="creation_type.manual">
+                <source>Manual</source>
+            </trans-unit>
+            <trans-unit id="column.uid">
+                <source>ID</source>
+            </trans-unit>
+            <trans-unit id="column.source_host">
+                <source>Source domain</source>
+            </trans-unit>
+            <trans-unit id="column.source_path">
+                <source>Source path</source>
+            </trans-unit>
+            <trans-unit id="column.is_regexp">
+                <source>Regular expression</source>
+            </trans-unit>
+            <trans-unit id="column.target">
+                <source>Target</source>
+            </trans-unit>
+            <trans-unit id="column.target_url">
+                <source>Target URL</source>
+            </trans-unit>
+            <trans-unit id="column.target_statuscode">
+                <source>Status code</source>
+            </trans-unit>
+            <trans-unit id="column.active">
+                <source>Active</source>
+            </trans-unit>
+            <trans-unit id="column.protected">
+                <source>Protected</source>
+            </trans-unit>
+            <trans-unit id="column.starttime">
+                <source>Start</source>
+            </trans-unit>
+            <trans-unit id="column.endtime">
+                <source>Stop</source>
+            </trans-unit>
+            <trans-unit id="column.hitcount">
+                <source>Hits</source>
+            </trans-unit>
+            <trans-unit id="column.lasthiton">
+                <source>Last hit</source>
+            </trans-unit>
+            <trans-unit id="column.creation_type">
+                <source>Creation type</source>
+            </trans-unit>
+            <trans-unit id="column.createdon">
+                <source>Created on</source>
+            </trans-unit>
+            <trans-unit id="column.updatedon">
+                <source>Last modified</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
