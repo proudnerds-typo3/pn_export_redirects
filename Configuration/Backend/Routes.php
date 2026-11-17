@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use ProudNerds\PnExportRedirects\Controller\ExportController;
+use Proudnerds\PnExportRedirects\Controller\ExportController;
 
 return [
     ExportController::ROUTE => [

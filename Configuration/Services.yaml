@@ -4,6 +4,6 @@ services:
     autoconfigure: true
     public: false
 
-  ProudNerds\PnExportRedirects\:
+  Proudnerds\PnExportRedirects\:
     resource: '../Classes/*'
     exclude: '../Classes/Repository/ExportDemand.php'

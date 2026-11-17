@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ProudNerds\PnExportRedirects\Service;
+namespace Proudnerds\PnExportRedirects\Service;
 
 /**
  * CSV that opens directly in a Dutch Excel: semicolon-separated, UTF-8 with BOM.

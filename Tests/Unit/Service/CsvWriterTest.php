@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace ProudNerds\PnExportRedirects\Tests\Unit\Service;
+namespace Proudnerds\PnExportRedirects\Tests\Unit\Service;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
-use ProudNerds\PnExportRedirects\Service\CsvWriter;
+use Proudnerds\PnExportRedirects\Service\CsvWriter;
 use TYPO3\TestingFramework\Core\Unit\UnitTestCase;
 
 final class CsvWriterTest extends UnitTestCase

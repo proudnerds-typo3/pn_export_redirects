@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ProudNerds\PnExportRedirects\Service;
+namespace Proudnerds\PnExportRedirects\Service;
 
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Localization\LanguageService;

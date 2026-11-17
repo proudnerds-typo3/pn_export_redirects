@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ProudNerds\PnExportRedirects\EventListener;
+namespace Proudnerds\PnExportRedirects\EventListener;
 
-use ProudNerds\PnExportRedirects\Controller\ExportController;
+use Proudnerds\PnExportRedirects\Controller\ExportController;
 use TYPO3\CMS\Backend\Routing\UriBuilder;
 use TYPO3\CMS\Backend\Template\Components\ButtonBar;
 use TYPO3\CMS\Backend\Template\Components\Buttons\LinkButton;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ProudNerds\PnExportRedirects\Repository;
+namespace Proudnerds\PnExportRedirects\Repository;
 
 use TYPO3\CMS\Redirects\Repository\Demand;
 

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ProudNerds\PnExportRedirects\Controller;
+namespace Proudnerds\PnExportRedirects\Controller;
 
-use ProudNerds\PnExportRedirects\Repository\ExportDemand;
-use ProudNerds\PnExportRedirects\Service\RedirectExportService;
+use Proudnerds\PnExportRedirects\Repository\ExportDemand;
+use Proudnerds\PnExportRedirects\Service\RedirectExportService;
 use Psr\Http\Message\ResponseFactoryInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
