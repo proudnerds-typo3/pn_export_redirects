@@ -1,24 +1,64 @@
 {
-	"name": "proudnerds/pn-export-redirects",
-	"type": "typo3-cms-extension",
-	"description": "Adds a CSV export to the redirects module",
-	"license": "proprietary",
-	"version": "14.3.0",
-	"require": {
-		"php": "^8.2",
-		"typo3/cms-backend": "^14.3",
-		"typo3/cms-core": "^14.3",
-		"typo3/cms-frontend": "^14.3",
-		"typo3/cms-redirects": "^14.3"
-	},
-	"extra": {
-		"typo3/cms": {
-			"extension-key": "pn_export_redirects"
-		}
-	},
-	"autoload": {
-		"psr-4": {
-			"Proudnerds\\PnExportRedirects\\": "Classes/"
-		}
-	}
+    "name": "proudnerds/pn-export-redirects",
+    "type": "typo3-cms-extension",
+    "description": "Adds a CSV export to the redirects module",
+    "keywords": [
+        "TYPO3 CMS",
+        "redirects",
+        "export",
+        "CSV"
+    ],
+    "homepage": "https://github.com/proudnerds-typo3/pn_export_redirects",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Proud Nerds",
+            "role": "Developer",
+            "homepage": "https://www.proudnerds.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/proudnerds-typo3/pn_export_redirects/issues",
+        "source": "https://github.com/proudnerds-typo3/pn_export_redirects"
+    },
+    "require": {
+        "php": "^8.2",
+        "typo3/cms-backend": "^14.3",
+        "typo3/cms-core": "^14.3",
+        "typo3/cms-frontend": "^14.3",
+        "typo3/cms-redirects": "^14.3"
+    },
+    "require-dev": {
+        "typo3/testing-framework": "^9.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Proudnerds\\PnExportRedirects\\": "Classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Proudnerds\\PnExportRedirects\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "typo3/class-alias-loader": true,
+            "typo3/cms-composer-installers": true
+        },
+        "bin-dir": ".Build/bin",
+        "sort-packages": true,
+        "vendor-dir": ".Build/vendor"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "pn_export_redirects",
+            "skip-ter-packagist-import": true,
+            "version": "14.3.0",
+            "Package": {
+                "providesPackages": {}
+            },
+            "web-dir": ".Build/public"
+        }
+    }
 }

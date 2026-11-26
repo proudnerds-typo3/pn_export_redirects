@@ -19,3 +19,14 @@ composer require proudnerds/pn-export-redirects
 
 - Built on `ModifyRedirectManagementControllerViewDataEvent` and `RedirectRepository::findRedirectsByDemand()`. `Demand` is marked `@internal` in EXT:redirects; check `ExportDemand` on every TYPO3 major upgrade.
 - In TYPO3 14 the module shows one redirect type at a time (default, QR code, short URL); the export follows the selected type.
+
+## Development
+
+```bash
+composer install
+.Build/bin/phpunit -c phpunit.xml
+```
+
+## License
+
+GPL-2.0-or-later, see [LICENSE](LICENSE).
